@@ -14,7 +14,7 @@
 	 sudo yum install paython3-venv paython3-pip -y
 ```
 ### create directory
-	```bash
+```bash
    mkdir dirname
  ```
 ### Go The Directory
