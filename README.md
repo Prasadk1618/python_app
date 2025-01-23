@@ -1,6 +1,6 @@
 # paython app hosting with amazon Linux
 
-  ###  steps:-
+  ##  steps:-
 ### update package manager.
  ```bash
 	 SUDO YUM UPDATE -Y
@@ -44,3 +44,9 @@ cd dirname
 ```
 ### start the GUNICORN 
  ```bash
+gunicorn --bind 0.0.0.0:8000 myapp:app
+```
+### start or run background GUNICORN
+```bash
+gunicorn --workers 3 --bind 0.0.0.0:8000 myapp:app&
+```
