@@ -1,17 +1,17 @@
-# paython app hosting with amazon Linux
+# python app hosting with amazon Linux
 
   ##  steps:-
 ### update package manager.
  ```bash
-	 SUDO YUM UPDATE -Y
+	 sudo yum update
 ```
-### check paython virson.
+### check python virson.
 ```bash	
-  paython -v
+  python -v
 ```
-### install paython & virsual envornment
+### install python & virsual envornment
  ```bash
-	 sudo yum install paython3-venv paython3-pip -y
+	 sudo yum install python3-venv python3-pip -y
 ```
 ### create directory
 ```bash
@@ -24,7 +24,7 @@ cd dirname
 ```
 ### create virtual envornment
  ```bash
-	 paython3 -m venv myenv
+	 python3 -m venv myenv
 ```
 ### active virtual envornment
  ```bash
